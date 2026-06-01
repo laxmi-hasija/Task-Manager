@@ -1,0 +1,16 @@
+body {
+  background-color: #f1f5f9;
+}
+.maincard {
+  text-align: center;
+  margin: 50px;
+  width: 500px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "inter", sans-serif;
+  min-height: 75vh;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
