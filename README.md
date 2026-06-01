@@ -1,0 +1,2 @@
+# Task-Manager
+A simple and responsive Task Manager built with React that allows users to add, delete, and mark tasks as completed. Designed with a clean UI to help users stay organized and manage daily tasks efficiently.
