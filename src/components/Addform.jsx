@@ -20,7 +20,7 @@ export default function AddForm() {
   };
   return (
     <>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="inputsection">
         <input className="inputbox"
           type="text" value={task} placeholder="Enter Your task"
           onChange={(event) => setTask(event.target.value) }

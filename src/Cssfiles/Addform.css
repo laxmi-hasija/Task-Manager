@@ -1,11 +1,19 @@
+.inputsection{
+  display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-left:8px;
+}
 .inputbox{
   height: 42px;
-  width: 250px;
+  width: 50%;
  border : 1px solid #CBD5E1;
  border-radius: 8px;
  color: #1E293B;
  font-size: 16px;
  padding-left :  12px;
+   flex: 1;
+    min-width: 200px;
 }
 .inputbox:focus{
   border:1px solid  #1E293B;
@@ -18,8 +26,8 @@
   background-color: #2563EB;
   color: #FFFFFF;
 
-  height : 42px;
-  padding: 10px 10px;
+  height : 9%;
+  padding: 12px 12px;
   font-size: 16px;
   margin-left: 16px;
   border: none;

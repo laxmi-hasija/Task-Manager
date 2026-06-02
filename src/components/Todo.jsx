@@ -27,8 +27,8 @@ export default function Todo() {
           <li
             key={todo.id}
             style={{ textDecoration: todo.isDone ? "line-through" : "none" }}
-          >
-            <div className="taskContainer">
+          > <div className="outercontainer">
+             <div className="taskContainer">
               {" "}
               <span className="listitem">{todo.task}</span>
               <span className="btns">
@@ -49,6 +49,8 @@ export default function Todo() {
                 </button>
               </span>{" "}
             </div>
+          </div>
+           
           </li>
         ))}
       </ul>
