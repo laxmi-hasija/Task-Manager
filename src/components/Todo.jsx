@@ -26,13 +26,13 @@ export default function Todo() {
         {todos.map((todo) => (
           <li
             key={todo.id}
-            style={{ textDecoration: todo.isDone ? "line-through" : "none" }}
+           
           > <div className="outercontainer">
              <div className="taskContainer">
-              {" "}
-              <span className="listitem">{todo.task}</span>
+              
+              <span className="listitem"  style={{ textDecoration: todo.isDone ? "line-through" : "none" }}>{todo.task}</span>
               <span className="btns">
-                {" "}
+                
                 <button
                   onClick={() => deleteTask(todo.id)}
                   className="Deletebtn"

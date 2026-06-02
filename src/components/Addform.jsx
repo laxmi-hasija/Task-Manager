@@ -26,7 +26,7 @@ export default function AddForm() {
           onChange={(event) => setTask(event.target.value) }
         ></input>
         <button className="addTaskbtn">Add Task</button><br></br>
-      <p style={{color: "red"}}> {error}</p>
+      <p style={{color: "red", margin: "auto" }}> {error}</p>
       </form>
     </>
   );
